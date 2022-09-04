@@ -105,7 +105,8 @@ func (tb *Bucket) SetRate(rate float64) {
 }
 
 func (tb *Bucket) TakeBatch() int64 {
-
+	//todo
+	return 0
 }
 
 func (tb *Bucket) Take(n int64) (time.Duration, bool) {

@@ -2,7 +2,7 @@ package raft
 
 import (
 	"bufio"
-	"go-drl/pkg/bio"
+	"github.com/zhihanii/go-drl/pkg/bio"
 )
 
 type ApiKey int16

@@ -1,7 +1,7 @@
 package client
 
 import (
-	"go-drl/server/protocol"
+	"github.com/zhihanii/go-drl/server/protocol"
 	"time"
 )
 

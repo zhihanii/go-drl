@@ -3,7 +3,7 @@ package raft
 import (
 	"bufio"
 	"fmt"
-	"go-drl/pkg/bio"
+	"github.com/zhihanii/go-drl/pkg/bio"
 )
 
 const (

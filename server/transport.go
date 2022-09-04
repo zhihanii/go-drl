@@ -3,8 +3,8 @@ package server
 import (
 	"bufio"
 	"context"
-	"go-drl/pkg/bio"
-	"go-drl/server/protocol"
+	"github.com/zhihanii/go-drl/pkg/bio"
+	"github.com/zhihanii/go-drl/server/protocol"
 	"log"
 	"net"
 	"time"

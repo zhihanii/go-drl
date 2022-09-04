@@ -2,8 +2,8 @@ package client
 
 import (
 	"bufio"
-	"go-drl/pkg/bio"
-	"go-drl/server/protocol"
+	"github.com/zhihanii/go-drl/pkg/bio"
+	"github.com/zhihanii/go-drl/server/protocol"
 	"net"
 )
 
@@ -95,7 +95,7 @@ func (t *NetworkTransport) Take(req *protocol.TakeRequest, resp *protocol.TakeRe
 	}
 	if !resp.Success {
 		state := &leaderState{
-			LeaderId: resp.LeaderId,
+			LeaderId:   resp.LeaderId,
 			LeaderAddr: resp.LeaderAddr,
 		}
 		t.l.setLeaderState(state)

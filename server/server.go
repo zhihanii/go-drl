@@ -1,9 +1,9 @@
 package server
 
 import (
-	"go-drl/raft"
-	"go-drl/ratelimit"
-	"go-drl/server/protocol"
+	"github.com/zhihanii/go-drl/raft"
+	"github.com/zhihanii/go-drl/ratelimit"
+	"github.com/zhihanii/go-drl/server/protocol"
 )
 
 type Server struct {

@@ -2,7 +2,7 @@ package protocol
 
 import (
 	"bufio"
-	"go-drl/pkg/bio"
+	"github.com/zhihanii/go-drl/pkg/bio"
 )
 
 type TakeRequest struct {

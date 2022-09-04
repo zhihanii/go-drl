@@ -1,6 +1,6 @@
 package server
 
-import "go-drl/raft"
+import "github.com/zhihanii/go-drl/raft"
 
 type BucketConfiguration struct {
 	Rate     float64

@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"context"
 	"errors"
-	"go-drl/pkg/bio"
+	"github.com/zhihanii/go-drl/pkg/bio"
 	"log"
 	"net"
 	"sync"

@@ -1,6 +1,6 @@
 package server
 
-import "go-drl/server/protocol"
+import "github.com/zhihanii/go-drl/server/protocol"
 
 func (s *Server) handleTake(req *protocol.Request, c *protocol.TakeRequest) {
 	var (
